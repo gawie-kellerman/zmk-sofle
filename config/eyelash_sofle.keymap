@@ -68,11 +68,11 @@
 
         layer_1 {
             bindings = <
-&bt BT_CLR       &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4       &mmv MOVE_UP     &kp F6     &kp F7    &kp F8          &kp F9        &kp F10           &kp INS
-&bl BL_TOG       &bl BL_DEC       &bl BL_INC       &mkp MCLK        &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP  &kp HOME  &kp UP          &kp END       &kp F11           &kp F12
-&rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &rgb_ug RGB_SPI    &mmv MOVE_LEFT   &kp PG_DN  &kp LEFT  &kp DOWN        &kp RIGHT     &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans           &rgb_ug RGB_EFR  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &rgb_ug RGB_SPD    &mmv MOVE_RIGHT  &trans     &trans    &rgb_ug RGB_ON  &out OUT_TOG  &out OUT_USB      &out OUT_BLE
-&kp C_MUTE       &trans           &trans           &trans           &trans           &trans             &mkp LCLK        &trans     &trans    &trans          &trans        &trans
+&bt BT_CLR       &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4       &mmv MOVE_UP     &kp F6     &kp F7    &kp F8        &kp F9        &kp F10           &kp INS
+&bl BL_TOG       &bl BL_DEC       &bl BL_INC       &mkp MCLK        &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP  &kp HOME  &kp UP        &kp END       &kp F11           &kp F12
+&rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &rgb_ug RGB_SPI    &mmv MOVE_LEFT   &kp PG_DN  &kp LEFT  &kp DOWN      &kp RIGHT     &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&kp CAPSLOCK     &rgb_ug RGB_EFR  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &rgb_ug RGB_SPD    &mmv MOVE_RIGHT  &trans     &trans    &trans        &trans        &trans            &kp CAPS
+&kp C_MUTE       &trans           &trans           &trans           &trans           &trans             &mkp LCLK        &trans     &trans    &out OUT_TOG  &out OUT_USB  &out OUT_BLE
             >;
 
             display-name = "layer1";
@@ -81,11 +81,11 @@
 
         layer_2 {
             bindings = <
-&bootloader   &kp F1          &kp F2         &kp F3                &kp F4                 &kp F5         &mmv MOVE_UP     &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp PRINTSCREEN
-&trans        &kp PLUS        &kp MINUS      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PERCENT    &mmv MOVE_DOWN   &trans      &kp N7             &kp N8           &kp N9                &kp UNDER             &kp SCROLLLOCK
-&trans        &kp UNDERSCORE  &kp EQUAL      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans         &mmv MOVE_LEFT   &kp N0      &kp N4             &kp N5           &kp N6                &kp LBRC              &kp PAUSE_BREAK
-&kp CAPSLOCK  &kp AT_SIGN     &kp AMPERSAND  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans         &mmv MOVE_RIGHT  &to 2       &kp N1             &kp N2           &kp N3                &bootloader           &trans
-&trans        &trans          &trans         &trans                &trans                 &trans         &mkp LCLK        &trans      &trans             &trans           &trans                &trans
+&bootloader   &kp F1       &kp F2         &kp F3                &kp F4                 &kp F5           &mmv MOVE_UP     &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp PRINTSCREEN
+&kp ASTERISK  &kp PLUS     &kp MINUS      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PERCENT      &mmv MOVE_DOWN   &trans      &kp N7             &kp N8           &kp N9                &kp UNDER             &kp SCROLLLOCK
+&kp SLASH     &kp COLON    &kp EQUAL      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON    &mmv MOVE_LEFT   &kp N0      &kp N4             &kp N5           &kp N6                &kp LBRC              &kp PAUSE_BREAK
+&kp CAPSLOCK  &kp AT_SIGN  &kp AMPERSAND  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp UNDER        &mmv MOVE_RIGHT  &tog 2      &kp N1             &kp N2           &kp N3                &bootloader           &kp CAPSLOCK
+&trans        &trans       &trans         &trans                &trans                 &trans           &mkp LCLK        &trans      &trans             &trans           &trans                &trans
             >;
 
             display-name = "layer2";
