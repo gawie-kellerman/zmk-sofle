@@ -82,7 +82,7 @@
         layer_2 {
             bindings = <
 &trans          &kp F1       &kp F2         &kp F3                &kp F4                 &kp F5       &trans  &trans         &trans  &trans  &trans      &trans       &kp PRINTSCREEN
-&kp ASTERISK    &kp PLUS     &kp MINUS      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp GRAVE    &trans  &trans         &kp N7  &kp N8  &kp N9      &kp UNDER    &kp SCROLLLOCK
+&kp ASTERISK    &kp PLUS     &kp MINUS      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp GRAVE    &trans  &kp TILDE      &kp N7  &kp N8  &kp N9      &kp UNDER    &kp SCROLLLOCK
 &kp SLASH       &kp COLON    &kp EQUAL      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE    &trans  &kp BACKSPACE  &kp N4  &kp N5  &kp N6      &kp LBRC     &kp PAUSE_BREAK
 &kp LEFT_SHIFT  &kp AT_SIGN  &kp AMPERSAND  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp UNDER    &trans  &kp DELETE     &kp N1  &kp N2  &kp N3      &bootloader  &kp RIGHT_SHIFT
 &trans          &trans       &trans         &trans                &trans                 &trans       &trans  &trans         &trans  &kp N0  &kp PERIOD  &kp COMMA
