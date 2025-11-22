@@ -58,7 +58,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - layer1
   - $$mdi:keyboard-space$$
-  - {t: layer3, h: toggle}
+  - layer3
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - RIGHT GUI
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -157,7 +157,7 @@ layers:
   - {t: '9', s: (}
   - _
   - SCROLLLOCK
-  - {t: /, s: '?'}
+  - '!'
   - ':'
   - {t: '=', s: +}
   - (
@@ -235,7 +235,7 @@ layers:
   - '6'
   - {t: '$$mdi:transfer$$', type: trans}
   - '&bl BL_DEC'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: layer3, h: toggle}
   - RGB EFR
   - RGB HUD
   - RGB SAD
@@ -253,7 +253,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
