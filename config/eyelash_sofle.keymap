@@ -59,7 +59,7 @@
 &kp TAB     &kp Q      &kp W         &kp E   &kp R      &kp T     &kp DOWN_ARROW   &kp Y          &kp U      &kp I      &kp O      &kp P          &kp BSLH
 &kp CAPS    &kp A      &kp S         &kp D   &kp F      &kp G     &kp LEFT_ARROW   &kp H          &kp J      &kp K      &kp L      &kp SEMI       &kp APOS
 &kp LSHFT   &kp Z      &kp X         &kp C   &kp V      &kp B     &kp RIGHT_ARROW  &kp N          &kp M      &kp COMMA  &kp DOT    &kp FSLH       &kp RIGHT_SHIFT
-&kp C_MUTE  &kp LCTRL  &kp LEFT_ALT  &mo 1   &kp SPACE  &tog 3    &kp ENTER        &kp RIGHT_GUI  &kp ENTER  &mo 2      &kp RCTRL  &kp RIGHT_ALT
+&kp C_MUTE  &kp LCTRL  &kp LEFT_ALT  &mo 1   &kp SPACE  &mo 3     &kp ENTER        &kp RIGHT_GUI  &kp ENTER  &mo 2      &kp RCTRL  &kp RIGHT_ALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -81,11 +81,11 @@
 
         layer_2 {
             bindings = <
-&trans          &kp F1       &kp F2         &kp F3                &kp F4                 &kp F5       &trans  &trans         &trans  &trans  &trans      &trans       &kp PRINTSCREEN
-&kp ASTERISK    &kp PLUS     &kp MINUS      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp GRAVE    &trans  &kp TILDE      &kp N7  &kp N8  &kp N9      &kp UNDER    &kp SCROLLLOCK
-&kp SLASH       &kp COLON    &kp EQUAL      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE    &trans  &kp BACKSPACE  &kp N4  &kp N5  &kp N6      &kp LBRC     &kp PAUSE_BREAK
-&kp LEFT_SHIFT  &kp AT_SIGN  &kp AMPERSAND  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp UNDER    &trans  &kp DELETE     &kp N1  &kp N2  &kp N3      &bootloader  &kp RIGHT_SHIFT
-&trans          &trans       &trans         &trans                &trans                 &trans       &trans  &trans         &trans  &kp N0  &kp PERIOD  &kp COMMA
+&trans           &kp F1       &kp F2         &kp F3                &kp F4                 &kp F5       &trans  &trans         &trans  &trans  &trans      &trans       &kp PRINTSCREEN
+&kp ASTERISK     &kp PLUS     &kp MINUS      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp GRAVE    &trans  &kp TILDE      &kp N7  &kp N8  &kp N9      &kp UNDER    &kp SCROLLLOCK
+&kp EXCLAMATION  &kp COLON    &kp EQUAL      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE    &trans  &kp BACKSPACE  &kp N4  &kp N5  &kp N6      &kp LBRC     &kp PAUSE_BREAK
+&kp LEFT_SHIFT   &kp AT_SIGN  &kp AMPERSAND  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp UNDER    &trans  &kp DELETE     &kp N1  &kp N2  &kp N3      &bootloader  &kp RIGHT_SHIFT
+&trans           &trans       &trans         &trans                &trans                 &trans       &trans  &trans         &trans  &kp N0  &kp PERIOD  &kp COMMA
             >;
 
             display-name = "layer2";
@@ -97,7 +97,7 @@
 &bt BT_CLR       &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4       &kp UP_ARROW          &kp MINUS      &kp PLUS      &kp ASTERISK  &kp SLASH     &kp UP          &bl BL_TOG
 &trans           &trans           &trans           &trans           &trans           &trans             &kp DOWN_ARROW        &kp CARET      &kp N7        &kp N8        &kp N9        &kp DOWN_ARROW  &bl BL_INC
 &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &rgb_ug RGB_SPI    &kp C_BRIGHTNESS_DEC  &kp BACKSPACE  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans          &bl BL_DEC
-&trans           &rgb_ug RGB_EFR  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &rgb_ug RGB_SPD    &kp C_BRIGHTNESS_INC  &kp DELETE     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT_ARROW  &kp RIGHT_ARROW
+&to 3            &rgb_ug RGB_EFR  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &rgb_ug RGB_SPD    &kp C_BRIGHTNESS_INC  &kp DELETE     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT_ARROW  &kp RIGHT_ARROW
 &trans           &trans           &trans           &trans           &trans           &trans             &trans                &trans         &trans        &kp N0        &kp PERIOD    &kp COMMA
             >;
 
